@@ -51,6 +51,11 @@ function calculate() {
     }
     //연산완료한 값을 표시
     document.querySelector('.display').value = resultValue;  
+    
+    //다음 연산을 위해 저장값 모두 초기화
+    displayValue = '';
+    inputValue ='';
+    operator = '';
 }
 
 //ac버튼을 누르면 저장된값을 모두 초기화 하기 위한 함수
